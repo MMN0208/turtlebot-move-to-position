@@ -53,7 +53,7 @@ while n > 0:
                 speed.linear.x = 0.0
                 speed.angular.z = 0.3
             
-            else if (angle_to_goal - theta) > 0.0:
+            elif (angle_to_goal - theta) > 0.0:
                 speed.linear.x = 0.0
                 speed.angular.z = -0.3
         else: 
